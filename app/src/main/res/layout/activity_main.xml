@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="音乐播放服务"/>
+    <Button
+        android:id="@+id/startMusicService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启音乐播放服务"/>
+    <Button
+        android:id="@+id/stopMusicService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止音乐播放服务"/>
+    <Button
+        android:id="@+id/bindMusicService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定音乐播放服务"/>
+    <Button
+        android:id="@+id/unbindMusicService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除 ——绑定音乐播放服务"/>
+    <Button
+        android:id="@+id/playMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用音乐播放服务中play方法播放音乐"/>
+    <Button
+        android:id="@+id/stopMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用音乐播放服务中stop方法停止音乐"/>
+</LinearLayout>
